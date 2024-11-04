@@ -1,0 +1,32 @@
+.calc-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width:25%;
+  height:100%;
+  font-size: 2vw;
+  cursor:pointer;
+  opacity:1;
+}
+
+.clear{
+  background-color:#606c38;
+}
+
+.operator{
+  background-color: #dda15e;
+}
+
+.number{
+  background-color: #bc6c25;
+}
+
+.decimal{
+  background-color:  #fefae0;
+}
+
+.calc-btn:hover{
+  opacity:0.8;
+}
+
